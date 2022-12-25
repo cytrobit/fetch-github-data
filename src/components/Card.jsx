@@ -7,8 +7,12 @@ const Card = (props) => {
       <img alt="avatar" src={props.avatar_url} />
       </div>
       <div>
-        <div style={{ fontWeight: 'bold' }}>{props.name}</div>
-        <div className='blog'>{props.blog}</div>
+        <div className='username'>{props.login}</div>
+        <div className='blog'>
+          <a className='links' href={props.blog} target='_blank' rel='noreferrer'>
+            {props.blog}
+          </a>
+          </div>
       </div>
     </div>
   )
