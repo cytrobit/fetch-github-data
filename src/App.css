@@ -13,10 +13,29 @@ body {
   align-items: center;
 }
 
+.heading {
+  position: absolute;
+  top: 2em;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid white;
+  text-align: center;
+}
 
+.heading h1 {
+  padding-bottom: 1em;
+  color: #ebebeb;
+}
 
 img {
   width: 100%;
   max-width: 200px;
   height: auto;
+}
+
+form input {
+  background-color: aqua;
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin-right: 1em;
 }

@@ -13,8 +13,10 @@ function App() {
 
   return (
     <div className="App">
-      <h2>Fetching the data from GitHub API</h2>
-      <Form onSubmit={addNewCard} />
+      <div className='heading'>
+        <h1>Fetching the data from GitHub API</h1>
+        <Form onSubmit={addNewCard} />
+      </div>
       <CardList cards={cards} />
     </div>
   );
