@@ -1,15 +1,15 @@
-## Fetching the User data from GitHub API
+# Fetching the User data from GitHub API
 
 Just input User name, hit Enter on keyboard or click 'Display Info' button and its done.
 
-App will display User name or User login, depending if User name exists. If not User login appear.
+App will display User picture, User name or User login, depending if User name exists. If not User login appear.
 The same with User blog address - if exists it will be displayed, if not GitHub address will be shown.
 
-App uses Axios.
+App uses [Axios](https://github.com/sheaivey/react-axios).
 
-Use 'npm install axios' to install this package.
+Use `npm install axios` to install this package.
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
