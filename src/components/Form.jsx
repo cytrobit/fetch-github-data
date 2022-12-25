@@ -23,7 +23,7 @@ const Form = (props) => {
         placeholder="GitHub username"
         required
       />
-      <button type="submit">Add card</button>
+      <button type="submit">Display Info</button>
     </form>
   )
 }

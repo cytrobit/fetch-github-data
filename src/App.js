@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <div className='heading'>
-        <h1>Fetching the data from GitHub API</h1>
+        <h1>Fetching User data from GitHub API</h1>
         <Form onSubmit={addNewCard} />
       </div>
       <CardList cards={cards} />

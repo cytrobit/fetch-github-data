@@ -92,8 +92,8 @@ body {
 
 .card .blog a.links {
   color: #174ea6;
-  font-weight: 600;
-  transition: 0.5s;
+  font-weight: 500;
+  transition: 0.4s;
 }
 
 .card .blog a.links:hover {
@@ -156,6 +156,11 @@ button:focus {
 
 @media screen and (max-width: 800px) {
   .cardlist {
+    margin-top: 150px;
     padding: 0 20px;
+  }
+
+  input {
+    margin-bottom: 1em;
   }
 }
