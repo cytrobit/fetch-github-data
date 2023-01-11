@@ -7,8 +7,6 @@ The same with User blog address - if exists it will be displayed, if not GitHub 
 
 App uses [Axios](https://github.com/sheaivey/react-axios).
 
-Use `npm install axios` to install this package.
-
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
