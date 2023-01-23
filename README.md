@@ -20,3 +20,4 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+![github-api-screenshot](https://user-images.githubusercontent.com/82907373/214001853-90eb2f8c-0f4f-41bb-a68b-bfab609ff8d4.jpg)
